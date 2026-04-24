@@ -15,6 +15,6 @@ public class FraudAnalysis {
 
     private Long transactionId;
     private BigDecimal amount;
-    private String status; // APPROVED ou REJECTED
+    private String status; 
     private LocalDateTime analyzedAt;
 }
